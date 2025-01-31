@@ -1,0 +1,90 @@
+body
+{
+    margin : 0;
+    padding: 0;
+    background-color:#f98e8e ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Bad Script", cursive;
+}
+.container
+{
+    background: #f8bebe;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #d03c3c;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 500px;
+    text-align: center;
+}
+.container h1
+{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.todo-input
+{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.todo-input input
+{
+    flex: 1 ;
+    border-radius: 10px;
+    padding: 8px;
+    border: 2.5px solid #c75f5f;
+    font-size: 18px;
+    font-family: "Bad Script", cursive;
+}
+.todo-input button
+{
+    padding: 8px 16px;
+    border: none;
+    background-color: #8e3434;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Bad Script" , cursive;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.todo-input button:hover
+{
+    background-color: #c84848;
+}
+.ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+li
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#ed7e7e ;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+li.completed
+{
+    text-decoration: line-through;
+    color: #4a4949;
+ 
+}
+.remove-btn
+{
+    background: #b23632 ;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+.remove-btn:hover
+{
+    background:  #8e3434;
+}
